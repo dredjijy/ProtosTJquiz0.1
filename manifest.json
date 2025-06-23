@@ -1,0 +1,21 @@
+
+{
+  "name": "TJQuiz",
+  "short_name": "TJQuiz",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#800000",
+  "theme_color": "#800000",
+  "icons": [
+    {
+      "src": "icone-tjquiz.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icone-tjquiz.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

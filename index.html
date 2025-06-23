@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TJQuiz - Accueil</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icone-tjquiz.png" type="image/png">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #800000;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      background-color: white;
+      color: #800000;
+      padding: 15px 30px;
+      margin: 10px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: 250px;
+    }
+    .btn:hover {
+      background-color: #ddd;
+    }
+    .footer {
+      position: absolute;
+      bottom: 60px;
+      font-style: italic;
+      font-size: 14px;
+      opacity: 0.7;
+    }
+    .feedback-link {
+      margin-top: 30px;
+      font-size: 0.9rem;
+    }
+    .feedback-link a {
+      color: #f0dada;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>TJQuiz par DREDJI</h1>
+  <button class="btn" onclick="location.href='quiz-normal.html'">Mode Normal</button>
+  <button class="btn" onclick="location.href='quiz-verset.html'">Retrouve le verset</button>
+  <button class="btn" id="installBtn" style="display: none;">📲 Télécharger l'application</button>
+
+  <div class="feedback-link">
+    Une suggestion ou une erreur ? <a href="https://forms.gle/YOUR_GOOGLE_FORM_ID" target="_blank">Clique ici pour aider à améliorer le jeu</a>
+  </div>
+
+  <div class="footer">par Dredji</div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+
+    let deferredPrompt;
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      const installBtn = document.getElementById('installBtn');
+      installBtn.style.display = 'inline-block';
+
+      installBtn.addEventListener('click', () => {
+        installBtn.style.display = 'none';
+        deferredPrompt.prompt();
+        deferredPrompt.userChoice.then(() => {
+          deferredPrompt = null;
+        });
+      });
+    });
+  </script>
+</body>
+</html>

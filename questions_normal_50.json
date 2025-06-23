@@ -1,0 +1,462 @@
+[
+  {
+    "text": "Combien de livres contient la Bible ?",
+    "choices": [
+      "66",
+      "72",
+      "80"
+    ],
+    "answer": "66",
+    "source": "https://www.jw.org/finder?wtlocale=F&docid=1001070210"
+  },
+  {
+    "text": "Où se trouve ce verset ? Lévitique 50:24",
+    "choices": [
+      "Lévitique 50:24",
+      "Lévitique 1:23",
+      "Nombres 25:22"
+    ],
+    "answer": "Lévitique 50:24"
+  },
+  {
+    "text": "Où se trouve ce verset ? Lévitique 42:10",
+    "choices": [
+      "Lévitique 42:10",
+      "Genèse 2:1",
+      "Nombres 39:2"
+    ],
+    "answer": "Lévitique 42:10"
+  },
+  {
+    "text": "Où se trouve ce verset ? Genèse 1:4",
+    "choices": [
+      "Genèse 24:15",
+      "Genèse 1:4",
+      "Nombres 38:12"
+    ],
+    "answer": "Genèse 1:4"
+  },
+  {
+    "text": "Où se trouve ce verset ? Deutéronome 29:25",
+    "choices": [
+      "Deutéronome 19:5",
+      "Deutéronome 29:25",
+      "Exode 39:27"
+    ],
+    "answer": "Deutéronome 29:25"
+  },
+  {
+    "text": "Où se trouve ce verset ? Deutéronome 27:23",
+    "choices": [
+      "Genèse 24:21",
+      "Nombres 29:3",
+      "Deutéronome 27:23"
+    ],
+    "answer": "Deutéronome 27:23"
+  },
+  {
+    "text": "Où se trouve ce verset ? Genèse 7:30",
+    "choices": [
+      "Genèse 26:11",
+      "Genèse 7:30",
+      "Lévitique 26:19"
+    ],
+    "answer": "Genèse 7:30"
+  },
+  {
+    "text": "Où se trouve ce verset ? Exode 8:18",
+    "choices": [
+      "Deutéronome 8:28",
+      "Exode 8:18",
+      "Nombres 35:11"
+    ],
+    "answer": "Exode 8:18"
+  },
+  {
+    "text": "Où se trouve ce verset ? Genèse 7:25",
+    "choices": [
+      "Genèse 47:4",
+      "Lévitique 44:18",
+      "Genèse 7:25"
+    ],
+    "answer": "Genèse 7:25"
+  },
+  {
+    "text": "Où se trouve ce verset ? Genèse 40:18",
+    "choices": [
+      "Genèse 40:18",
+      "Lévitique 27:12",
+      "Lévitique 45:21"
+    ],
+    "answer": "Genèse 40:18"
+  },
+  {
+    "text": "Où se trouve ce verset ? Nombres 48:1",
+    "choices": [
+      "Nombres 48:1",
+      "Exode 5:7",
+      "Deutéronome 33:14"
+    ],
+    "answer": "Nombres 48:1"
+  },
+  {
+    "text": "Où se trouve ce verset ? Nombres 31:24",
+    "choices": [
+      "Nombres 31:24",
+      "Genèse 16:23",
+      "Exode 44:26"
+    ],
+    "answer": "Nombres 31:24"
+  },
+  {
+    "text": "Où se trouve ce verset ? Lévitique 19:14",
+    "choices": [
+      "Nombres 26:17",
+      "Lévitique 19:14",
+      "Lévitique 22:26"
+    ],
+    "answer": "Lévitique 19:14"
+  },
+  {
+    "text": "Où se trouve ce verset ? Deutéronome 17:14",
+    "choices": [
+      "Deutéronome 17:14",
+      "Exode 3:29",
+      "Lévitique 31:10"
+    ],
+    "answer": "Deutéronome 17:14"
+  },
+  {
+    "text": "Où se trouve ce verset ? Genèse 8:25",
+    "choices": [
+      "Lévitique 10:14",
+      "Genèse 8:25",
+      "Lévitique 40:29"
+    ],
+    "answer": "Genèse 8:25"
+  },
+  {
+    "text": "Où se trouve ce verset ? Deutéronome 34:14",
+    "choices": [
+      "Exode 20:19",
+      "Exode 39:1",
+      "Deutéronome 34:14"
+    ],
+    "answer": "Deutéronome 34:14"
+  },
+  {
+    "text": "Où se trouve ce verset ? Genèse 3:28",
+    "choices": [
+      "Genèse 49:11",
+      "Genèse 26:13",
+      "Genèse 3:28"
+    ],
+    "answer": "Genèse 3:28"
+  },
+  {
+    "text": "Où se trouve ce verset ? Deutéronome 36:6",
+    "choices": [
+      "Deutéronome 36:6",
+      "Lévitique 10:16",
+      "Lévitique 14:25"
+    ],
+    "answer": "Deutéronome 36:6"
+  },
+  {
+    "text": "Où se trouve ce verset ? Nombres 10:15",
+    "choices": [
+      "Lévitique 27:1",
+      "Genèse 19:10",
+      "Nombres 10:15"
+    ],
+    "answer": "Nombres 10:15"
+  },
+  {
+    "text": "Où se trouve ce verset ? Nombres 16:25",
+    "choices": [
+      "Exode 7:13",
+      "Lévitique 19:7",
+      "Nombres 16:25"
+    ],
+    "answer": "Nombres 16:25"
+  },
+  {
+    "text": "Où se trouve ce verset ? Exode 35:24",
+    "choices": [
+      "Exode 35:24",
+      "Genèse 49:9",
+      "Exode 39:26"
+    ],
+    "answer": "Exode 35:24"
+  },
+  {
+    "text": "Où se trouve ce verset ? Lévitique 42:18",
+    "choices": [
+      "Genèse 4:12",
+      "Exode 15:24",
+      "Lévitique 42:18"
+    ],
+    "answer": "Lévitique 42:18"
+  },
+  {
+    "text": "Où se trouve ce verset ? Genèse 26:8",
+    "choices": [
+      "Lévitique 12:21",
+      "Lévitique 7:27",
+      "Genèse 26:8"
+    ],
+    "answer": "Genèse 26:8"
+  },
+  {
+    "text": "Où se trouve ce verset ? Nombres 34:28",
+    "choices": [
+      "Lévitique 33:12",
+      "Nombres 27:11",
+      "Nombres 34:28"
+    ],
+    "answer": "Nombres 34:28"
+  },
+  {
+    "text": "Où se trouve ce verset ? Nombres 28:21",
+    "choices": [
+      "Exode 15:13",
+      "Nombres 28:21",
+      "Genèse 19:3"
+    ],
+    "answer": "Nombres 28:21"
+  },
+  {
+    "text": "Où se trouve ce verset ? Deutéronome 28:23",
+    "choices": [
+      "Genèse 46:2",
+      "Deutéronome 28:23",
+      "Exode 29:27"
+    ],
+    "answer": "Deutéronome 28:23"
+  },
+  {
+    "text": "Où se trouve ce verset ? Genèse 3:11",
+    "choices": [
+      "Lévitique 4:13",
+      "Genèse 3:11",
+      "Genèse 11:6"
+    ],
+    "answer": "Genèse 3:11"
+  },
+  {
+    "text": "Où se trouve ce verset ? Exode 27:12",
+    "choices": [
+      "Exode 18:5",
+      "Exode 27:12",
+      "Nombres 27:26"
+    ],
+    "answer": "Exode 27:12"
+  },
+  {
+    "text": "Où se trouve ce verset ? Lévitique 17:13",
+    "choices": [
+      "Lévitique 17:13",
+      "Lévitique 27:9",
+      "Lévitique 48:13"
+    ],
+    "answer": "Lévitique 17:13"
+  },
+  {
+    "text": "Où se trouve ce verset ? Nombres 13:6",
+    "choices": [
+      "Exode 17:4",
+      "Nombres 13:6",
+      "Exode 16:18"
+    ],
+    "answer": "Nombres 13:6"
+  },
+  {
+    "text": "Où se trouve ce verset ? Deutéronome 8:16",
+    "choices": [
+      "Lévitique 11:11",
+      "Nombres 43:20",
+      "Deutéronome 8:16"
+    ],
+    "answer": "Deutéronome 8:16"
+  },
+  {
+    "text": "Où se trouve ce verset ? Deutéronome 38:15",
+    "choices": [
+      "Deutéronome 2:1",
+      "Deutéronome 38:15",
+      "Nombres 17:8"
+    ],
+    "answer": "Deutéronome 38:15"
+  },
+  {
+    "text": "Où se trouve ce verset ? Genèse 37:24",
+    "choices": [
+      "Genèse 39:10",
+      "Nombres 8:7",
+      "Genèse 37:24"
+    ],
+    "answer": "Genèse 37:24"
+  },
+  {
+    "text": "Où se trouve ce verset ? Genèse 4:4",
+    "choices": [
+      "Nombres 23:24",
+      "Exode 4:26",
+      "Genèse 4:4"
+    ],
+    "answer": "Genèse 4:4"
+  },
+  {
+    "text": "Où se trouve ce verset ? Lévitique 46:7",
+    "choices": [
+      "Lévitique 23:1",
+      "Lévitique 46:7",
+      "Lévitique 49:13"
+    ],
+    "answer": "Lévitique 46:7"
+  },
+  {
+    "text": "Où se trouve ce verset ? Lévitique 2:11",
+    "choices": [
+      "Genèse 10:18",
+      "Lévitique 2:11",
+      "Nombres 36:8"
+    ],
+    "answer": "Lévitique 2:11"
+  },
+  {
+    "text": "Où se trouve ce verset ? Nombres 34:27",
+    "choices": [
+      "Lévitique 42:24",
+      "Exode 42:27",
+      "Nombres 34:27"
+    ],
+    "answer": "Nombres 34:27"
+  },
+  {
+    "text": "Où se trouve ce verset ? Exode 23:4",
+    "choices": [
+      "Lévitique 5:14",
+      "Nombres 2:28",
+      "Exode 23:4"
+    ],
+    "answer": "Exode 23:4"
+  },
+  {
+    "text": "Où se trouve ce verset ? Nombres 16:7",
+    "choices": [
+      "Exode 3:8",
+      "Lévitique 42:25",
+      "Nombres 16:7"
+    ],
+    "answer": "Nombres 16:7"
+  },
+  {
+    "text": "Où se trouve ce verset ? Exode 1:15",
+    "choices": [
+      "Genèse 23:27",
+      "Exode 1:15",
+      "Deutéronome 11:10"
+    ],
+    "answer": "Exode 1:15"
+  },
+  {
+    "text": "Où se trouve ce verset ? Genèse 21:17",
+    "choices": [
+      "Lévitique 48:12",
+      "Exode 3:3",
+      "Genèse 21:17"
+    ],
+    "answer": "Genèse 21:17"
+  },
+  {
+    "text": "Où se trouve ce verset ? Genèse 2:19",
+    "choices": [
+      "Exode 32:29",
+      "Genèse 2:19",
+      "Exode 44:30"
+    ],
+    "answer": "Genèse 2:19"
+  },
+  {
+    "text": "Où se trouve ce verset ? Deutéronome 24:5",
+    "choices": [
+      "Deutéronome 24:5",
+      "Exode 30:4",
+      "Genèse 37:1"
+    ],
+    "answer": "Deutéronome 24:5"
+  },
+  {
+    "text": "Où se trouve ce verset ? Genèse 32:7",
+    "choices": [
+      "Genèse 22:26",
+      "Genèse 32:7",
+      "Genèse 15:16"
+    ],
+    "answer": "Genèse 32:7"
+  },
+  {
+    "text": "Où se trouve ce verset ? Exode 30:16",
+    "choices": [
+      "Deutéronome 14:11",
+      "Exode 13:9",
+      "Exode 30:16"
+    ],
+    "answer": "Exode 30:16"
+  },
+  {
+    "text": "Où se trouve ce verset ? Nombres 38:6",
+    "choices": [
+      "Nombres 38:6",
+      "Nombres 7:21",
+      "Exode 25:12"
+    ],
+    "answer": "Nombres 38:6"
+  },
+  {
+    "text": "Où se trouve ce verset ? Deutéronome 8:7",
+    "choices": [
+      "Nombres 15:9",
+      "Deutéronome 8:7",
+      "Nombres 16:16"
+    ],
+    "answer": "Deutéronome 8:7"
+  },
+  {
+    "text": "Où se trouve ce verset ? Nombres 40:27",
+    "choices": [
+      "Genèse 43:5",
+      "Nombres 40:27",
+      "Deutéronome 3:26"
+    ],
+    "answer": "Nombres 40:27"
+  },
+  {
+    "text": "Où se trouve ce verset ? Lévitique 38:15",
+    "choices": [
+      "Genèse 46:6",
+      "Lévitique 38:15",
+      "Exode 36:4"
+    ],
+    "answer": "Lévitique 38:15"
+  },
+  {
+    "text": "Où se trouve ce verset ? Exode 9:28",
+    "choices": [
+      "Genèse 9:28",
+      "Exode 9:28",
+      "Genèse 17:8"
+    ],
+    "answer": "Exode 9:28"
+  },
+  {
+    "text": "Où se trouve ce verset ? Nombres 37:24",
+    "choices": [
+      "Nombres 37:24",
+      "Exode 29:3",
+      "Genèse 20:26"
+    ],
+    "answer": "Nombres 37:24"
+  }
+]

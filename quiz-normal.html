@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mode Normal - TJQuiz</title>
+  <style>
+    body {
+      background-color: #800000;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 30px;
+    }
+    .question {
+      font-size: 1.3rem;
+      margin: 20px;
+    }
+    .choices button {
+      display: block;
+      margin: 10px auto;
+      padding: 10px;
+      background: white;
+      color: #800000;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .footer {
+      margin-top: 30px;
+      font-style: italic;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mode Normal</h1>
+  <div id="quiz"></div>
+  <div class="footer">
+    <button onclick="location.href='index.html'">Retour au menu</button><br>
+    par Dredji
+  </div>
+  <script>
+    let current = 0, score = 0, questions = [];
+
+    fetch('questions_normal_50.json')
+      .then(res => res.json())
+      .then(data => {
+        questions = shuffle(data).slice(0, 20);
+        showQuestion();
+      });
+
+    function showQuestion() {
+      if (current >= questions.length) {
+        document.getElementById('quiz').innerHTML = `<h2>Score final : ${score}/${questions.length}</h2>`;
+        return;
+      }
+      const q = questions[current];
+      document.getElementById('quiz').innerHTML = `
+        <div class="question">${q.text}</div>
+        <div class="choices">
+          ${q.choices.map(c => `<button onclick="check('${c}', '${q.answer}')">${c}</button>`).join('')}
+        </div>
+      `;
+    }
+
+    function check(choice, answer) {
+      if (choice === answer) {
+        document.body.style.backgroundColor = "#006400";
+        score++;
+      } else {
+        document.body.style.backgroundColor = "#8B0000";
+        alert("Faux ❌, la bonne réponse était : " + answer);
+      }
+      setTimeout(() => {
+        document.body.style.backgroundColor = "#800000";
+        current++;
+        showQuestion();
+      }, 1000);
+    }
+
+    function shuffle(arr) {
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+      return arr;
+    }
+  </script>
+</body>
+</html>

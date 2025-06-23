@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TJQuiz - Retrouve le verset</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #800000;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    .question-box {
+      margin-bottom: 2rem;
+    }
+    button {
+      background-color: white;
+      color: #800000;
+      border: none;
+      padding: 1rem;
+      margin: 0.5rem;
+      font-size: 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+      width: 80%;
+      max-width: 300px;
+    }
+    .timer {
+      font-size: 1.2rem;
+      margin: 1rem 0;
+    }
+    .source {
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      color: #f0dada;
+    }
+    .score {
+      margin-top: 2rem;
+      font-size: 1.4rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Retrouve le verset</h1>
+  <div id="quiz-container">
+    <div id="question" class="question-box"></div>
+    <div id="options"></div>
+    <div class="timer" id="timer">Temps restant : 15s</div>
+    <div class="source" id="source"></div>
+  </div>
+  <div id="score" class="score"></div>
+
+  <script>
+    let questions = [];
+    let current = 0;
+    let score = 0;
+    let timer;
+    let timeLeft = 15;
+
+    async function loadQuestions() {
+      const res = await fetch('questions_versets_prototype.json');
+      questions = await res.json();
+      questions = questions.sort(() => Math.random() - 0.5);
+      showQuestion();
+    }
+
+    function showQuestion() {
+      if (current >= questions.length) {
+        document.getElementById("quiz-container").style.display = "none";
+        document.getElementById("score").innerHTML = `Score final : ${score} / ${questions.length}`;
+        return;
+      }
+
+      const q = questions[current];
+      document.getElementById("question").textContent = q.text;
+      document.getElementById("options").innerHTML = "";
+      document.getElementById("source").textContent = "";
+
+      q.options.forEach(opt => {
+        const btn = document.createElement("button");
+        btn.textContent = opt;
+        btn.onclick = () => selectAnswer(opt);
+        document.getElementById("options").appendChild(btn);
+      });
+
+      timeLeft = 15;
+      document.getElementById("timer").textContent = "Temps restant : 15s";
+      timer = setInterval(() => {
+        timeLeft--;
+        document.getElementById("timer").textContent = `Temps restant : ${timeLeft}s`;
+        if (timeLeft <= 0) {
+          clearInterval(timer);
+          showAnswer(null);
+        }
+      }, 1000);
+    }
+
+    function selectAnswer(answer) {
+      clearInterval(timer);
+      showAnswer(answer);
+    }
+
+    function showAnswer(answer) {
+      const q = questions[current];
+      const isCorrect = answer === q.answer;
+      if (isCorrect) score++;
+
+      document.getElementById("source").innerHTML = `✅ Réponse correcte : ${q.answer}<br><a href="${q.source}" target="_blank">${q.source}</a>`;
+
+      setTimeout(() => {
+        current++;
+        showQuestion();
+      }, 2500);
+    }
+
+    loadQuestions();
+  </script>
+</body>
+</html>

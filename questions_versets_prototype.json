@@ -1,0 +1,57 @@
+[
+  {
+    "book": "Genèse",
+    "text": "« Au commencement, Dieu créa le ciel et la terre. »",
+    "options": [
+      "Genèse 1:1",
+      "Genèse 1:5",
+      "Genèse 2:1"
+    ],
+    "answer": "Genèse 1:1",
+    "source": "jw.org – Genèse 1:1 (TMN)"
+  },
+  {
+    "book": "Exode",
+    "text": "« Tu ne tueras point. »",
+    "options": [
+      "Exode 20:13",
+      "Exode 19:3",
+      "Exode 21:10"
+    ],
+    "answer": "Exode 20:13",
+    "source": "jw.org – Exode 20:13 (TMN)"
+  },
+  {
+    "book": "Matthieu",
+    "text": "« Heureux ceux qui ont faim et soif de justice, car ils seront rassasiés. »",
+    "options": [
+      "Matthieu 5:6",
+      "Matthieu 6:10",
+      "Matthieu 4:12"
+    ],
+    "answer": "Matthieu 5:6",
+    "source": "jw.org – Matthieu 5:6 (TMN)"
+  },
+  {
+    "book": "Jean",
+    "text": "« Dieu est esprit, et ceux qui l’adorent doivent l’adorer avec esprit et vérité. »",
+    "options": [
+      "Jean 4:24",
+      "Jean 3:16",
+      "Jean 5:20"
+    ],
+    "answer": "Jean 4:24",
+    "source": "jw.org – Jean 4:24 (TMN)"
+  },
+  {
+    "book": "Révélation",
+    "text": "« Et il essuiera toute larme de leurs yeux. »",
+    "options": [
+      "Révélation 21:4",
+      "Révélation 19:10",
+      "Révélation 20:12"
+    ],
+    "answer": "Révélation 21:4",
+    "source": "jw.org – Révélation 21:4 (TMN)"
+  }
+]
